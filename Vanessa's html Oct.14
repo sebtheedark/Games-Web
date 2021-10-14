@@ -1,0 +1,149 @@
+<!doctype html>
+    <html lang=”en”>
+        <head>
+            <meta charset="utf-8">
+              //Added <!-- Google fonts-->
+            <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+              //Added <!-- Core theme CSS (includes Bootstrap)-->
+            <link href="css/styles.css" rel="stylesheet" />
+            <meta name="description" content=" We Play Games is game review site. "/>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- title -->
+        <title>We Play Games </title>
+        </head>
+        <body id="page-top">
+
+          //Added  <!-- Navigation Bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="#page-top">Start</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#game1">Block Buster: The Game</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#game2">One Night Ultimate Werewolf</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#game3">Herd Mentality</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#game4">Scrawl</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#game5">Pinch ‘n’ Pass</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Review">Review</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            //Added  <!-- Header-->
+            <header class="masthead text-center text-white">
+                <div class="masthead-content">
+                    <div class="container px-5">
+        <body>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+            <h1 class ="display-1">Welcome to We Play Games</h1>
+            <!-- Business Discription -->
+            <p class="lead">As we struggle through this pandemic, it is important to remember to be indoors, stay safe, and have fun. We Play Games would like to promote the top trending group games of 2021. Despite being stuck at home, everyone can still have fun by playing games with their family and friends.</p>
+
+            <!-- company description -->
+            <h2 class="display-4">Who are we?</h2>
+            <p class="lead">We Play Games Co. is based in Los Angeles, California. We Play Games is composed of local Angelino community members who like to promote and recommend amazingly fun games for groups big and small!  </p>
+
+            <!-- guided visits description -->
+            <h2 class="display-4">What do we offer?</h2>
+            <p class="lead">As boredom overtakes families struggling through this pandemic, We Play Games would like to take advantage of the web to promote games for families, big and small groups, and even large parties. We Play Games knows very well that a large number of families would like to stay home and practice social distancing. With many staying indoors, those that are vaccinated and masked can now rejoice and attend upcoming gaming events. In addition, the website’s implementation will mainly be informational where the online community can vote on the most likable game, the best game of the month, the next game that should be reviewed, and the type of event that shall be held. </p>
+
+            <!-- 1st Game -->
+            <h2 class="display-5">Block Buster: The Game</h2>
+            //Added
+            <section id="game1">
+                      <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." /></div>
+
+                      <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
+                    <div class="text">Block Buster Party 2</div>
+
+            <ul>
+                <li><b>Best Deal </b> ​​https://www.amazon.com/dp/B07SDD3PN1?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-3905084465339315700-20&geniuslink=true </li>
+                <li><b>Price: </b>$21 USD</li>
+                <li><b>Players:</b>4-8 Players</li>
+                <li><b>Ages:</b>14+</li>
+            </ul>
+
+            <!-- 2nd Game -->
+            <h2 class="display-5">One Night Ultimate Werewolf</h2>
+            //Added
+            <section id="game2">
+            <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+              <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/04.jpg" alt="..." /></div>
+                    <div class="text">One Night Ultimate Werewolf 2</div>
+                </div>
+            <ul>
+                <li><b>Best Deal </b> https://www.amazon.com/dp/B00HS7GG5G?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-1389432183967989200-20&geniuslink=true </li>
+                <li><b>Price: </b>$24.95 USD</li>
+                <li><b>Players:</b>3-10 Players</li>
+                <li><b>Ages:</b>8+</li>
+            </ul>
+
+            <!-- 3rd Game -->
+            <h2 class="display-5">Herd Mentality</h2>
+            //Added
+            <section id="game3">
+            <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/05.jpg" alt="..." /></div>
+              <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/06.jpg" alt="..." /></div>
+
+            <ul>
+                <li><b>Best Deal </b> https://www.amazon.com/Herd-Mentality-Family-Board-Think/dp/B085BM49M9?tag=georiot-us-default-20&ascsubtag=grd-us-1026823129518715300-20&geniuslink=true </li>
+                <li><b>Price: </b>$20 USD</li>
+                <li><b>Players:</b>4-20 Players</li>
+                <li><b>Ages:</b>10+</li>
+            </ul>
+
+            <!-- 4th Game -->
+            <h2 class="display-5">Scrawl</h2>
+            //Added
+            <section id="game4">
+            <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/07.jpg" alt="..." /></div>
+              <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/08.jpg" alt="..." /></div>
+
+            <ul>
+                <li><b>Best Deal </b> https://www.amazon.com/dp/B01J5TFSLM?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-2360168677051426000-20&geniuslink=true </li>
+                <li><b>Price: </b>$29.20 USD</li>
+                <li><b>Players:</b>4-8 Players</li>
+                <li><b>Ages:</b>17+</li>
+            </ul>
+
+            <!-- 5th Game -->
+            <h2 class="display-5">Pinch ‘n’ Pass</h2>
+            //Added
+          <section id="game5">
+            <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/09.jpg" alt="..." /></div>
+              <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/10.jpg" alt="..." /></div>
+
+            <ul>
+                <li><b>Best Deal </b> https://www.amazon.com/dp/B071RTJXD4?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-8621749935319698000-20&geniuslink=true</li>
+                <li><b>Price: </b>$28.75 USD</li>
+                <li><b>Players:</b>3-6 Players</li>
+                <li><b>Ages:</b>12+</li>
+            </ul>
+
+            <hr>
+                <aside>
+                    <!-- A form asking customers to give their review on Games -->
+                    <h2> Write your Review <h2>
+                    <section id="Review">
+                    <p>We want to know about your experience. Please leave your reviews to show the experience you had playing that game.</p>
+                    <form>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+                        <label for="experience">Gaming Experience: </label>
+                        <textarea name="experience" id="experience" placeholder="Please share your experience with us." rows="5" cols="50"></textarea><br><br>
+                        <input type="submit" value="Submit Form">
+                        <input type="reset">
+                    </form>
+                </aside>
+                //Added  <!-- Bootstrap core JS-->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+                  //Added <!-- Core theme JS-->
+                <script src="js/scripts.js"></script>
+    </body>
+</html>
