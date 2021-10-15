@@ -3488,7 +3488,10 @@ textarea.form-control-lg {
 }
 
 .fade {
-  transition: opacity 0.15s linear;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 @media (prefers-reduced-motion: reduce) {
   .fade {
@@ -11368,7 +11371,7 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
 
 
-    * {box-sizing:border-box}
+  * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
@@ -11446,4 +11449,53 @@ header.masthead .bg-circle-4 {
 }
 
   }
+body,html{
+  height: 100%;
+  margin: 0; 
+}
+.bg{
+background-image: url("assets/img/games.jpg");
+height: 100%; 
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 4px 8px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button1:hover {
+  background-color: #555555;
+  color: white;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4;}
+  to {opacity: 1;}
+}
+
+@keyframes fade {
+  from {opacity: .4;}
+  to {opacity: 1;}
+}
+
+@media only screen and (max-width: 300px) {
+  .text{font-size: 11px}
 }
