@@ -1,205 +1,211 @@
-<!doctype html>
-    <html lang=”en”>
-        <head>
-            <meta charset="utf-8">
-            <!-- Google fonts-->
-            <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-            <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
-            <!-- Core theme CSS (includes Bootstrap)-->
-            <link href="css/styles.css" rel="stylesheet" />
-            <meta name="description" content=" We Play Games is game review site. "/>
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>We Play Games </title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
 
-            <!-- title -->
-        <title>We Play Games!</title>
-        </head>
-        <body id="page-top"></body>
-            <!-- Navigation Bar-->
-            <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="#page-top">Welcome</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <!-- Dropdown Menu -->
-                        <div class='dropdown'>
-                            <button class='dropbutton'>GAMES</button>
-                            <div class='dropdown-content'>
-                                <ul class="navbar-nav ms-auto">
-                                    <li class="nav-item"><a class="nav-link" href="#game1">BlockBuster: The Game</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#game2">One Night Ultimate Werewolf</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#game3">Herd Mentality</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#game4">Scrawl</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#game5">Pinch ‘n’ Pass</a></li>
-                                </ul>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand fw-bold" href="#page-top">Start</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="#game1">BlockBuster: The Game</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#game2">One Night Ultimate Werewolf</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#game3">Herd Mentality</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#game4">Scrawl</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#game5">Pinch ‘n’ Pass</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                  <li class="nav-item"><a class="nav-link me-lg-3" href="#synopsis">Synopsis</a></li>
+                  <li class="nav-item"><a class="nav-link me-lg-3" href="#reviews">Reviews</a></li>
+                </ul>
+                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
+                    data-bs-target="#feedbackModal">
+                    <span class="d-flex align-items-center">
+                      <i class="bi-chat-text-fill me-2"></i>
+                        <span class="small">Send Feedback</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mashead header-->
+    <header class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <!-- Mashead text and app badges-->
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <h1 class="display-1 lh-1 mb-3">Welcome to We Play Games</h1>
+
+                        </div>
+                        <br>
+                        <p class="lead fw-normal text-muted mb-5">
+                            As we struggle through this pandemic, it is important to remember to be indoors, stay safe, and have fun. We Play Games would like to promote the top trending group games of 2021. Despite being stuck at home, everyone can still have fun by playing games with their family and friends.
+                    </div>
+                </div>
+                <div class="col-lg-6">
+
+                    <!-- 1st Game -->
+                    <h2 class="display-5">BlockBuster: Party Game</h2>
+                    <section id="game1">
+
+                    <!-- 1 Slider Blockbuster -->
+                    <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/01.jpg" class="d-block w-100" alt="Blockbuster1 image">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/02.jpg" class="d-block w-100"
+                                    alt="Blockbuster2 image">
                             </div>
                         </div>
+                        <!-- Slider controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-films"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-films"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button </div>
                     </div>
+                    <!-- End of Slider -->
+        <!-- main container -->
+                <div class="voteContainer">
+                  <!-- up -->
+                <button class="button upbutton">Thumbs up</Thumbs up</a>
+                  <!-- down button -->
+                    <button class="button downbutton">Thumbs down</Thumbs down></a>
+                  </div>
                     <div>
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#Review">Leave us a Comment!</a></li>
-                            <form id="form">
-                                    <input type="search" name="name" id="name" placeholder="Searching Games">
-                                    <button class='button-search button1'>Search</button>
-                            </form>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Header-->
-            <header class="masthead text-center text-white">
-                <div class="masthead-content">
-                    <div class="container px-5">
-
-        <body>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-            <section id="page-top">
-            <!-- Adding a fullpage image -->
-            <div class='bg'>
-                <h1>Welcome to We Play Games</h1>
-                <p>As we struggle through this pandemic, it is important to remember to be indoors, stay safe, and have fun. We Play Games would like to promote the top trending group games of 2021. Despite being stuck at home, everyone can still have fun by playing games with their family and friends.</p>
-            </div>
-            <br>
-
-            <!-- 1st Game -->
-            <h2 class="display-5">BlockBuster: Party Game</h2>
-
-            <section id="game1">
-                  <div class="container px-5">
-                          <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/01.jpg" alt="..." /></div>
-                      </div>
-                          <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
-                            <div class="p-5">
-                              </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-<!-- main container -->
-<div class="voteContainer">
-    <!-- up -->
-    <button class="button upbutton">Thumbs up</Thumbs up</a>
-      <!-- down button -->
-      <button class="button downbutton">Thumbs down</Thumbs down></a>
-      </div>
-      <div>
-
-
-                  <a href="https://www.amazon.com/Blockbuster-Game-Movie-Party-Family/dp/B07WMWNYNN/ref=sr_1_1?dchild=1&keywords=blockbuster+game&qid=1634592109&sr=8-1">BlockBuster Party Game</a>
-
-            <ul>
-                <li>Synopsis goes in here.</li>
-                <li><b>Players:</b> 4-8 Players</li>
-                <li><b>Ages:</b>14+</li>
-                <li> Regular Price: $21 USD</li>
-                <li><b>Sale Price: </b>$12.25 USD</li>
-                <li><b>Best Deal </b>
-                    <a href='https://www.gamestop.com/toys-games/board-games/products/blockbuster-party-game/214196.html?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aKAWIMp4qOK2vJu3KZe_oOAfSgOVeIuZsDH0kV4Pp3Sfk3HHicG-GkaAtGsEALw_wcB&gclsrc=aw.ds'><button class="button button1" button onclick="_blanks">Purchase Here!</button></a>
+              <a href="https://www.amazon.com/Blockbuster-Game-Movie-Party-Family/dp/B07WMWNYNN/ref=sr_1_1?dchild=1&keywords=blockbuster+game&qid=1634592109&sr=8-1">BlockBuster Party Game</a>
+                <ul>
+                      <li>Synopsis goes in here.</li>
+                      <li><b>Players:</b> 4-8 Players</li>
+                      <li><b>Ages:</b>14+</li>
+                      <li> Regular Price: $21 USD</li>
+                      <li><b>Sale Price: </b>$12.25 USD</li>
+                      <li><b>Best Deal </b>
+                      <a href='https://www.gamestop.com/toys-games/board-games/products/blockbuster-party-game/214196.html?gclid=Cj0KCQjwqp-LBhDQARIsAO0a6aKAWIMp4qOK2vJu3KZe_oOAfSgOVeIuZsDH0kV4Pp3Sfk3HHicG-GkaAtGsEALw_wcB&gclsrc=aw.ds'><button class="button button1" button onclick="_blanks">Purchase Here!</button></a>
                 </li>
-                <!--Bootstrap Icons: https://icons.getbootstrap.com/
+                  <!--Bootstrap Icons: https://icons.getbootstrap.com/
                  Install -> https://icons.getbootstrap.com/#install -->
-                 <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
-            </ul>
-            <br>
+                  <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
+                  </ul>
+                  <br>
 
             <!-- 2nd Game -->
-            <h2 class="display-5">One Night Ultimate Werewolf</h2>
-
+          <h2 class="display-5">One Night Ultimate Werewolf</h2>
             <section id="game2">
-              <div class="container px-5">
-                      <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
+
+          <!-- 2nd Slider Werewolf -->
+          <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="assets/img/03.jpg" class="d-block w-100" alt="Wolf1 image">
                   </div>
-                      <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/04.jpg" alt="..." /></div>
-                        <div class="p-5">
-                          </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-              </div>
-              <!-- main container -->
-              <div class="voteContainer">
-                  <!-- up -->
-                  <button class="button upbutton">Thumbs up</Thumbs up</a>
-                    <!-- down button -->
-                    <button class="button downbutton">Thumbs down</Thumbs down></a>
-                    </div>
-                    <div>
-
-                    <a href="https://www.amazon.com/Bezier-Games-ONUWBEZ-Ultimate-Werewolf/dp/B00HS7GG5G/ref=sr_1_1_sspa?crid=SEHCI055N9TR&dchild=1&keywords=one+night+ultimate+werewolf&qid=1634592263&sprefix=one+night%2Caps%2C346&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzM0NDREdDV0wyWlQmZW5jcnlwdGVkSWQ9QTA1MDg1ODQxMjkyT1FRUllVVk8wJmVuY3J5cHRlZEFkSWQ9QTAyODExNjkyNUJOREdITThKMFdaJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">One Night Ultimate Werewolf</a>
-                </div>
-            <ul>
-                <li>Synopsis goes in here.</li>
-                <li><b>Players:</b> 3-10 Players</li>
-                <li><b>Ages:</b>8+</li>
-                <li><b>Price: </b>$24.95 USD</li>
-                <li><b>Best Deal: </b>
-                    <a href='https://www.amazon.com/dp/B00HS7GG5G?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-1389432183967989200-20&geniuslink=true_blank' target='_blank'><button class="button button1">Purchase Here!</button></a>
-                </li>
-                <!--Bootstrap Icons: https://icons.getbootstrap.com/
-                 Install -> https://icons.getbootstrap.com/#install -->
-                 <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
-
-            </ul>
-            <br>
-
-            <!-- 3rd Game -->
-            <h2 class="display-5">Herd Mentality</h2>
-
-            <section id="game3">
-              <div class="container px-5">
-                      <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/05.jpg" alt="..." /></div>
+                  <div class="carousel-item">
+                      <img src="assets/img/04.jpg" class="d-block w-100"
+                          alt="Wolf2 image">
                   </div>
-                      <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/06.jpg" alt="..." /></div>
-                        <div class="p-5">
-                          </div>
-                    </div>
-                </div>
-            </div>
-            <br>
               </div>
+              <!-- Slider controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-films"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-films"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button </div>
+          </div>
+          <!-- End of Slider -->
           <!-- main container -->
-              <div class="voteContainer">
-                  <!-- up -->
-                  <button class="button upbutton">Thumbs up</Thumbs up</a>
-                    <!-- down button -->
-                    <button class="button downbutton">Thumbs down</Thumbs down></a>
-                    </div>
-                    <div>
+          <div class="voteContainer">
+              <!-- up -->
+              <button class="button upbutton">Thumbs up</Thumbs up</a>
+                <!-- down button -->
+                <button class="button downbutton">Thumbs down</Thumbs down></a>
+                </div>
+                <div>
 
-                    <a href="https://www.amazon.com/Herd-Mentality-Family-Board-Think/dp/B085BM49M9/ref=sr_1_2?crid=P47WGW3F6NPU&dchild=1&keywords=herd+mentality+game&qid=1634592392&sprefix=herd+%2Caps%2C241&sr=8-2">Herd Mentality</a>
+                <a href="https://www.amazon.com/Bezier-Games-ONUWBEZ-Ultimate-Werewolf/dp/B00HS7GG5G/ref=sr_1_1_sspa?crid=SEHCI055N9TR&dchild=1&keywords=one+night+ultimate+werewolf&qid=1634592263&sprefix=one+night%2Caps%2C346&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzM0NDREdDV0wyWlQmZW5jcnlwdGVkSWQ9QTA1MDg1ODQxMjkyT1FRUllVVk8wJmVuY3J5cHRlZEFkSWQ9QTAyODExNjkyNUJOREdITThKMFdaJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">One Night Ultimate Werewolf</a>
+            </div>
+        <ul>
+            <li>Synopsis goes in here.</li>
+            <li><b>Players:</b> 3-10 Players</li>
+            <li><b>Ages:</b>8+</li>
+            <li><b>Price: </b>$24.95 USD</li>
+            <li><b>Best Deal: </b>
+                <a href='https://www.amazon.com/dp/B00HS7GG5G?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-1389432183967989200-20&geniuslink=true_blank' target='_blank'><button class="button button1">Purchase Here!</button></a>
+            </li>
+            <!--Bootstrap Icons: https://icons.getbootstrap.com/
+             Install -> https://icons.getbootstrap.com/#install -->
+             <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
 
-            <ul>
-                <li>Synopsis goes here</li>
-                <li><b>Players:</b> 4-20 Players</li>
-                <li><b>Ages:</b>10+</li>
-                <li><b>Price: </b>$20 USD</li>
-                <li><b>Best Deal: </b>
-                    <a href='https://www.amazon.com/Herd-Mentality-Family-Board-Think/dp/B085BM49M9?tag=georiot-us-default-20&ascsubtag=grd-us-1026823129518715300-20&geniuslink=true'><button class="button button1">Purchase Here!</button></a>
-                </li>
-                <!--Bootstrap Icons: https://icons.getbootstrap.com/
-                 Install -> https://icons.getbootstrap.com/#install -->
-                 <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
-            </ul>
-            <br>
+        </ul>
+        <br>
 
-            <!-- 4th Game -->
-            <h2 class="display-5">Scrawl</h2>
-
-            <section id="game4">
-              <div class="container px-5">
-                      <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/07.jpg" alt="..." /></div>
-                  </div>
-                      <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/08.jpg" alt="..." /></div>
-                        <div class="p-5">
-                        </div>
-                    </div>
+        <!-- 3rd Game -->
+        <h2 class="display-5">Herd Mentality</h2>
+        <section id="game3">
+        <!-- 3nrd Slider Herd -->
+        <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/05.jpg" class="d-block w-100" alt="Herd1 image">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/06.jpg" class="d-block w-100"
+                        alt="Herd2 image">
                 </div>
             </div>
-            <br>
-            <!-- main container -->
+            <!-- Slider controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-films"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-films"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button </div>
+        </div>
+        <!-- End of Slider -->
+        <!-- main container -->
             <div class="voteContainer">
                 <!-- up -->
                 <button class="button upbutton">Thumbs up</Thumbs up</a>
@@ -208,95 +214,387 @@
                   </div>
                   <div>
 
-                    <a href="https://www.amazon.com/Scrawl-Adult-Party-Innocent-Doodles/dp/B01J5TFSLM/ref=sr_1_1?dchild=1&keywords=scrawl+game&qid=1634592474&sr=8-1">Scrawl</a>
+                  <a href="https://www.amazon.com/Herd-Mentality-Family-Board-Think/dp/B085BM49M9/ref=sr_1_2?crid=P47WGW3F6NPU&dchild=1&keywords=herd+mentality+game&qid=1634592392&sprefix=herd+%2Caps%2C241&sr=8-2">Herd Mentality</a>
 
-            <ul>
-                <li>Synopsis goes in here.</li>
-                <li><b>Players:</b> 4-8 Players</li>
-                <li><b>Ages:</b>17+</li>
-                <li><b>Price: </b>$29.20 USD</li>
-                <li><b>Best Deal: </b>
-                    <a href='https://www.amazon.com/dp/B01J5TFSLM?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-2360168677051426000-20&geniuslink=true'><button class="button button1">Purchase Here!</button></a>
-                </li>
-                <!--Bootstrap Icons: https://icons.getbootstrap.com/
-                 Install -> https://icons.getbootstrap.com/#install -->
-                 <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
-            </ul>
-            <br>
+          <ul>
+              <li>Synopsis goes here</li>
+              <li><b>Players:</b> 4-20 Players</li>
+              <li><b>Ages:</b>10+</li>
+              <li><b>Price: </b>$20 USD</li>
+              <li><b>Best Deal: </b>
+                  <a href='https://www.amazon.com/Herd-Mentality-Family-Board-Think/dp/B085BM49M9?tag=georiot-us-default-20&ascsubtag=grd-us-1026823129518715300-20&geniuslink=true'><button class="button button1">Purchase Here!</button></a>
+              </li>
+              <!--Bootstrap Icons: https://icons.getbootstrap.com/
+               Install -> https://icons.getbootstrap.com/#install -->
+               <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
+          </ul>
+          <br>
 
-            <!-- 5th Game -->
-            <h2 class="display-5">Pinch ‘n’ Pass</h2>
-
-            <section id="game5">
-              <div class="slideshow-container">
-                <div class="container px-5">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/09.jpg" alt="..." /></div>
-                    </div>
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/10.jpg" alt="..." /></div>
-                          <div class="p-5">
-                            </div>
-                      </div>
+          <!-- 4th Game -->
+          <h2 class="display-5">Scrawl</h2>
+          <section id="game4">
+          <!-- 4th Slider Scrawl -->
+          <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="assets/img/07.jpg" class="d-block w-100" alt="Scrawl1 image">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="assets/img/08.jpg" class="d-block w-100"
+                          alt="Scrawl2 image">
                   </div>
               </div>
-              <br>
-              <!-- main container -->
-              <div class="voteContainer">
-                  <!-- up -->
-                  <button class="button upbutton">Thumbs up</Thumbs up</a>
-                    <!-- down button -->
-                    <button class="button downbutton">Thumbs down</Thumbs down></a>
-                    </div>
-                    <div>
+              <!-- Slider controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-films"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-films"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button </div>
+          </div>
+          <!-- End of Slider -->
+          <!-- main container -->
+          <div class="voteContainer">
+              <!-- up -->
+              <button class="button upbutton">Thumbs up</Thumbs up</a>
+                <!-- down button -->
+                <button class="button downbutton">Thumbs down</Thumbs down></a>
+                </div>
+                <div>
+
+                  <a href="https://www.amazon.com/Scrawl-Adult-Party-Innocent-Doodles/dp/B01J5TFSLM/ref=sr_1_1?dchild=1&keywords=scrawl+game&qid=1634592474&sr=8-1">Scrawl</a>
+
+          <ul>
+              <li>Synopsis goes in here.</li>
+              <li><b>Players:</b> 4-8 Players</li>
+              <li><b>Ages:</b>17+</li>
+              <li><b>Price: </b>$29.20 USD</li>
+              <li><b>Best Deal: </b>
+                  <a href='https://www.amazon.com/dp/B01J5TFSLM?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-2360168677051426000-20&geniuslink=true'><button class="button button1">Purchase Here!</button></a>
+              </li>
+              <!--Bootstrap Icons: https://icons.getbootstrap.com/
+               Install -> https://icons.getbootstrap.com/#install -->
+               <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
+          </ul>
+          <br>
+
+          <!-- 5th Game -->
+          <h2 class="display-5">Pinch ‘n’ Pass</h2>
+          <section id="game5">
+          <!-- 4th Slider Scrawl -->
+          <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="assets/img/09.jpg" class="d-block w-100" alt="Pinch1 image">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="assets/img/10.jpg" class="d-block w-100"
+                          alt="Pinch2 image">
+                  </div>
               </div>
-              <a href="https://www.amazon.com/Ginger-Fox-Pinch-Pass-Game/dp/B071RTJXD4/ref=sr_1_1?dchild=1&keywords=Pinch+n+pass+game&qid=1634592537&sr=8-1">Pinch 'n' Pass</a>
+              <!-- Slider controls -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-films"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-films"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button </div>
+          </div>
+          <!-- End of Slider -->
+          <!-- main container -->
+          <div class="voteContainer">
+              <!-- up -->
+              <button class="button upbutton">Thumbs up</Thumbs up</a>
+                <!-- down button -->
+                <button class="button downbutton">Thumbs down</Thumbs down></a>
+                </div>
+                <div>
+          </div>
+          <a href="https://www.amazon.com/Ginger-Fox-Pinch-Pass-Game/dp/B071RTJXD4/ref=sr_1_1?dchild=1&keywords=Pinch+n+pass+game&qid=1634592537&sr=8-1">Pinch 'n' Pass</a>
+        <ul>
+            <li>Synopsis goes in here.</li>
+            <li><b>Players:</b> 3-6 Players</li>
+            <li><b>Ages:</b>12+</li>
+            <li><b>Price: </b>$28.75 USD</li>
+            <li><b>Best Deal: </b>
+                <a href='https://www.amazon.com/dp/B071RTJXD4?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-8621749935319698000-20&geniuslink=true'><button class="button button1">Purchase Here!</button></a>
+            </li>
+            <!--Bootstrap Icons: https://icons.getbootstrap.com/
+             Install -> https://icons.getbootstrap.com/#install -->
+             <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
+        </ul>
+        <br>
+          </div>
+            </div>
+    </header>
+    <!-- Synopsis -->
+    <section id="synopsis" class="pt-5 pb-0 my-0">
+        <div class="container">
+            <div class="text-center">
+                <h2>Synopsis</h2>
+            </div>
+            <div class="row my-4 g-0 justify-content-center">
+                <article class="col-lg card border-0">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">BlockBuster</h4>
+                        <p class="card-text">
+                            <p class="mb-2">
+                              write synopsis here..                            <div class="mb-2">
+                                <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-synopsis-1" aria-expanded="false"
+                                    aria-controls="collapse-synopsis-1">
+                                    Read more
+                                </button>
+                            </div>
+                            <p class="collapse" id="collapse-synopsis-1">
+                              more 2 synopsis                          </p>
+                            </p>
+                        </p>
+                    </div>
+                </article>
+                <article class="col-lg card border-0">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">One Night Ulitmate Werewolf</h4>
+                        <p class="card-text">
+                            <p class="mb-2">
+                              write synopsis here..                             <div class="mb-2">
+                                <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-synopsis-2" aria-expanded="false"
+                                    aria-controls="collapse-synopsis-2">
+                                    Read more
+                                </button>
+                            </div>
+                            <p class="collapse" id="collapse-synopsis-2">
+                              write more synopsis here..
+                            </p>
+                        </p>
+                    </div>
+                </article>
+                <article class="col-lg card border-0">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Herd Mentality</h4>
+                        <p class="card-text">
+                            <p class="mb-2">
+                              write synopsis here..                             </p>
+                            <div class="mb-2">
+                                <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-synopsis-3" aria-expanded="false"
+                                    aria-controls="collapse-synopsis-3">
+                                    Read more
+                                </button>
+                            </div>
+                            <p class="collapse" id="collapse-synopsis-3">
+                              write more synopsis here..                             </p>
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+  </article>
+  <article class="col-lg card border-0">
+      <div class="card-body">
+          <h4 class="card-title text-center">Scrawl</h4>
+          <p class="card-text">
+              <p class="mb-2">
+                write synopsis here..
+              <div class="mb-2">
+                  <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse-synopsis-4" aria-expanded="false"
+                      aria-controls="collapse-synopsis-4">
+                      Read more
+                  </button>
+              </div>
+              <p class="collapse" id="collapse-synopsis-4">
+                write more synopsis here..
+              </p>
+          </p>
+      </div>
+  </article>
+  <article class="col-lg card border-0">
+      <div class="card-body">
+          <h4 class="card-title text-center">Pinch 'n' Pass</h4>
+          <p class="card-text">
+              <p class="mb-2">
+                write synopsis here..
+              </p>
+              <div class="mb-2">
+                  <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapse-synopsis-5" aria-expanded="false"
+                      aria-controls="collapse-synopsis-5">
+                      Read more
+                  </button>
+              </div>
+              <p class="collapse" id="collapse-synopsis-5">
+                write more synopsis here..
+              </p>
+          </p>
+      </div>
+  </article>
+</div>
+    <!-- Reviews -->
+    <section id="reviews" class="bg-light pt-5 my-0">
+        <div class="container">
+            <div class="text-center">
+                <h2>Reviews</h2>
+            </div>
+            <div class="row my-2 g-5 justify-content-around align-items-center">
+                <div class="col-lg-6">
+                    <img src="assets/img/001.jpg" class="img-fluid" alt="ppl playing games pic">
+                </div>
+                <div class="col-lg-6">
+                    <!-- accordion -->
+                    <div class="accordion" id="reviews-content">
+                        <article class="accordion-item">
+                            <h2 class="accordion-header" id="heading-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#review-1" aria-expanded="true" aria-controls="review-1">
+                                    BlockBuster: Party Game
+                                </button>
+                            </h2>
+                            <div id="review-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                                data-bs-parent="#reviews-content">
+                                <div class="accordion-body">
+                                    <p>
+                                        Write Review here..
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion-item">
+                            <h2 class="accordion-header" id="heading-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#review-2" aria-expanded="false" aria-controls="review-2">
+                                    One Night Ultimate Werewolf
+                                </button>
+                            </h2>
+                            <div id="review-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                                data-bs-parent="#reviews-content">
+                                <div class="accordion-body">
+                                    <p>
+                                      Write review here..                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion-item">
+                            <h2 class="accordion-header" id="heading-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#review-3" aria-expanded="false" aria-controls="review-1">
+                                  Herd Mentality
+                                </button>
+                            </h2>
+                            <div id="review-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                                data-bs-parent="#reviews-content">
+                                <div class="accordion-body">
+                                    <p>
+                                      Write Review Here..                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion-item">
+                            <h2 class="accordion-header" id="heading-4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#review-4" aria-expanded="false" aria-controls="review-2">
+                                    Scrawl
+                                </button>
+                            </h2>
+                            <div id="review-4" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                                data-bs-parent="#reviews-content">
+                                <div class="accordion-body">
+                                    <p>
+                                      Write review here..                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion-item">
+                            <h2 class="accordion-header" id="heading-5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#review-5" aria-expanded="false" aria-controls="review-1">
+                                  Pinch 'n' Pass
+                                </button>
+                            </h2>
+                            <div id="review-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
+                                data-bs-parent="#reviews-content">
+                                <div class="accordion-body">
+                                    <p>
+                                      Write Review Here..                                    </p>
+                                </div>
+                            </div>
+                        </article>
 
-            <ul>
-                <li>Synopsis goes in here.</li>
-                <li><b>Players:</b> 3-6 Players</li>
-                <li><b>Ages:</b>12+</li>
-                <li><b>Price: </b>$28.75 USD</li>
-                <li><b>Best Deal: </b>
-                    <a href='https://www.amazon.com/dp/B071RTJXD4?tag=georiot-us-default-20&th=1&psc=1&ascsubtag=grd-us-8621749935319698000-20&geniuslink=true'><button class="button button1">Purchase Here!</button></a>
-                </li>
-                <!--Bootstrap Icons: https://icons.getbootstrap.com/
-                 Install -> https://icons.getbootstrap.com/#install -->
-                 <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
-            </ul>
-            <br>
+                        <!-- End of accordian -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; Your Website 2021. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Faq -->
+    <section id="faq">
+      <h2 class="display-5">FAQ!</h2>
+        <!-- company description -->
+        <h2 class="display-4">Who are we?</h2>
+        <p class="lead">We Play Games Co. is based in Los Angeles, California. We Play Games is composed of local Angelino community members who like to promote and recommend amazingly fun games for groups big and small!  </p>
+        <h2 class="display-4">What is our Mission</h2>
+        <p class='lead'>Our mission is to provide information and suggestions for endless fun for everyone.</p>
 
-            <section id="faq">
-                <h2 class="display-5">FAQ!</h2>
-                <!-- company description -->
-                <h2 class="display-4">Who are we?</h2>
-                <p class="lead">We Play Games Co. is based in Los Angeles, California. We Play Games is composed of local Angelino community members who like to promote and recommend amazingly fun games for groups big and small!  </p>
-                <h2 class="display-4">What is our Mission</h2>
-                <p class='lead'>Our mission is to provide information and suggestions for endless fun for everyone.</p>
+        <!-- guided visits description -->
+        <h2 class="display-4">What do we offer?</h2>
+        <p class="lead">As boredom overtakes families struggling through this pandemic, We Play Games would like to take advantage of the web to promote games for families, big and small groups, and even large parties. We Play Games knows very well that a large number of families would like to stay home and practice social distancing. With many staying indoors, those that are vaccinated and masked can now rejoice and attend upcoming gaming events. In addition, the website’s implementation will mainly be informational where the online community can vote on the most likable game, the best game of the month, the next game that should be reviewed, and the type of event that shall be held. </p>
+        <br>
 
-                <!-- guided visits description -->
-                <h2 class="display-4">What do we offer?</h2>
-                <p class="lead">As boredom overtakes families struggling through this pandemic, We Play Games would like to take advantage of the web to promote games for families, big and small groups, and even large parties. We Play Games knows very well that a large number of families would like to stay home and practice social distancing. With many staying indoors, those that are vaccinated and masked can now rejoice and attend upcoming gaming events. In addition, the website’s implementation will mainly be informational where the online community can vote on the most likable game, the best game of the month, the next game that should be reviewed, and the type of event that shall be held. </p>
-                <br>
 
-            <hr>
-                <aside>
-                    <!-- A form asking customers to give their review on Games -->
-                    <h2> Write your Review <h2>
-                    <section id="Review">
-                    <p>We want to know about your experience. Please leave your reviews to show the experience you had playing that game.</p>
+    <!-- Feedback Modal-->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                    <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
+                    <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body border-0 p-4">
                     <form>
-                        <label for="name">Name: </label>
-                        <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
-                        <label for="email">Email: </label>
-                        <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
-                        <label for="experience">Gaming Experience: </label>
-                        <textarea name="experience" id="experience" placeholder="Please share your experience with us." rows="5" cols="50"></textarea><br><br>
-                        <input type="submit" value="Submit Form">
-                        <input type="reset">
+                        <div class="form-group mb-4">
+                            <label for="email" class="form-label">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="comment" class="form-label">Comment:</label>
+                            <textarea class="form-control" id="comment" rows="3"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-secondary rounded-pill btn-lg disabled w-100" id="submitButton" type="submit">Submit</button>
+                        </div>
                     </form>
-                </aside>
-                <!-- Bootstrap core JS-->
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-                <!-- Core theme JS-->
-                <script src="js/scripts.js"></script>
-    </body>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Feedback Modal-->
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
