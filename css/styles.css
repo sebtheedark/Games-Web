@@ -11653,3 +11653,28 @@ footer a:hover, footer a:active, footer a:focus {
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbutton {background-color: transparent;}
 }
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 5px 16px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button1 {
+  background-color: #EEEE;
+  color: black;
+  border-radius: 8px;
+}
+
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
