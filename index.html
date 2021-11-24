@@ -21,6 +21,8 @@
         rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- Adding jQuery -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -89,31 +91,16 @@
                             As we struggle through this pandemic, it is important to remember to be indoors, stay safe, and have fun. We Play Games would like to promote the top trending group games of 2021. Despite being stuck at home, everyone can still have fun by playing games with their family and friends.
                     </div>
                     <!-- 1 Slider Playing Games -->
-                    <div class='container'>
-                        <div class="col-md-8">
-                        <div class="center">
-                        <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="assets/img/001.jpg" class="d-block w-100" alt="PlayingGames1 image">
+                            <div id="carousel-films" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner" align ="center">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/001.jpg" class="d-block w-100" alt="PlayingGames1 image">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/002.jpg" class="d-block w-100"alt="PlayingGames2 image">
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <img src="assets/img/002.jpg" class="d-block w-100"alt="PlayingGames2 image">
-                                </div>
-                        </div>
-                        <!-- Slider controls -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-films"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-films"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button </div>
-                    </div>
-                    </div>
+                            </div>    
                     <!-- End of Slider -->
                 </div>
             </div>
@@ -139,15 +126,16 @@
                                 <div class="card-body">
                                     <p class="card-text">
                         <p class='text-center' style='font-size:25px;'>
-                          Are you into movies? If you are then this game is for you. This game was inspired by the rental chain video store (Blockbuster).                          <div class="mb-2">
+                          Are you into movies? If you are then this game is for you. This game was inspired by the rental chain video store (Blockbuster).
                             <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapse-synopsis-1" aria-expanded="false"
                                 aria-controls="collapse-synopsis-1">
                                 Read more
                             </button>
                         </div>
-                        <p class="collapse" id="collapse-synopsis-1">
+                        <p class="collapse center" id="collapse-synopsis-1">
                           This game is featured in a box-shaped VHS cassette. Blockbuster will leave you facing off against two different teams where you will go head-to-head in guessing different actors and films.
+                        </p>
                     </p>
                     </div>
                   </div>
@@ -196,35 +184,35 @@
                     <!--Bootstrap Icons: https://icons.getbootstrap.com/Install -> https://icons.getbootstrap.com/#install -->
                     <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
                 </ul>
-                <br>
-            </div>
-        </div>
+
         <!-- accordion -->
         <div class="accordion" id="reviews-content">
             <article class="accordion-item">
                 <h2 class="accordion-header" id="heading-1">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#review-1" aria-expanded="true" aria-controls="review-1">
-        <!-- Add 5 star icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#review-1" aria-expanded="true" aria-controls="review-1">
+                        <!-- Add 5 star icon library -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        5-Star Review by Customer
-                </button>
-            </h2>
-            <div id="review-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
-                data-bs-parent="#reviews-content">
-                <div class="accordion-body">
-                    <p>
-                      "This game is great for adults and teenagers, but for the best results, you’ll want to split up into two teams. It is a fun family game for anyone who enjoys watching blockbuster films."
-                    </p>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        5-Star Review by Customer
+                    </button>
+                </h2>
+                <div id="review-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#reviews-content">
+                    <div class="accordion-body">
+                        <p>
+                            "This game is great for adults and teenagers, but for the best results, you’ll want to split up into two teams. It is a fun family game for anyone who enjoys watching blockbuster films."
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </article>
+            </article>
+        </div>
+        </div>
+    </div>
+     
     <!-- End 1st Game -->
     <br>
         <!-- 2nd Game -->
@@ -244,15 +232,16 @@
                                    <div class="card-body">
                                    <p class="card-text">
                            <p class='text-center' style='font-size:25px;'>
-                             This game was inspired by the social game Werewolf. In this game, you’ll act as villagers where you will try to vote out the werewolves.                             <div class="mb-2">
+                             This game was inspired by the social game Werewolf. In this game, you’ll act as villagers where you will try to vote out the werewolves.                             
                                <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
-                                   data-bs-target="#collapse-synopsis-1" aria-expanded="false"
-                                   aria-controls="collapse-synopsis-1">
+                                   data-bs-target="#collapse-synopsis-2" aria-expanded="false"
+                                   aria-controls="collapse-synopsis-2">
                                    Read more
                                </button>
                            </div>
-                           <p class="collapse" id="collapse-synopsis-1">
+                            <p class="collapse" id="collapse-synopsis-2">
                              During the game, all the werewolves must try their best to stay alive. But if you get caught and you are voted out then it is game over for you.
+                            </p>
                        </p>
                        </div>
                     </div>
@@ -305,28 +294,23 @@
                 <!--Bootstrap Icons: https://icons.getbootstrap.com/Install -> https://icons.getbootstrap.com/#install -->
                 <strong class="text-warning fw-bold"><i class="bi bi-exclamation-triangle"></i> CHOKING HAZARD -- Small parts. Not for children under 3 yrs.</strong>
             </ul>
-        <br>
-    </div>
-    </div>
-    <!-- accordion -->
+            <!-- accordion -->
     <div class="accordion" id="reviews-content">
         <article class="accordion-item">
             <h2 class="accordion-header" id="heading-2">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#review-2" aria-expanded="true" aria-controls="review-2">
-        <!-- Add 5 star icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#review-2" aria-expanded="true" aria-controls="review-2">
+                    <!-- Add 5 star icon library -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        5-Star Review by Customer
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    5-Star Review by Customer
                 </button>
             </h2>
-            <div id="review-2" class="accordion-collapse collapse show" aria-labelledby="heading-2"
-                data-bs-parent="#reviews-content">
+            <div id="review-2" class="accordion-collapse collapse show" aria-labelledby="heading-2" data-bs-parent="#reviews-content">
                 <div class="accordion-body">
                     <p>
                       "Bezier Board Games present One Night Ultimate Werewolf, it's an excellent easy learning game. You can play for one round, or you can stay for the entire game which lasts about 10 minutes. This game will leave you hanging to play again and again."     </p>
@@ -334,6 +318,11 @@
                 </div>
             </div>
         </article>
+    </div>
+        <br>
+    </div>
+    </div>
+
     <!-- End 2nd Game -->
     <br>
 
@@ -356,15 +345,15 @@
                            <p class='text-center' style='font-size:25px;'>
                              This game is easy and simple, think like a herd and write the same name down as your team players.
                                <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
-                                   data-bs-target="#collapse-synopsis-1" aria-expanded="false"
-                                   aria-controls="collapse-synopsis-1">
+                                   data-bs-target="#collapse-synopsis-3" aria-expanded="false"
+                                   aria-controls="collapse-synopsis-3">
                                    Read more
                                </button>
                            </div>
-                           <p class="collapse" id="collapse-synopsis-1">
-                             This game is featured in a fuzzy box which is surprisingly unexpected. Also, the game can be dangerous but in order to win then must think like the crowd.
-                       </p>
-                       </div>
+                           <p class="collapse" id="collapse-synopsis-3">
+                                This game is featured in a fuzzy box which is surprisingly unexpected. Also, the game can be dangerous but in order to win then must think like the crowd.
+                            </p>
+                        </div>
                       </div>
 
             <!-- 3rd Slider Herd -->
@@ -438,7 +427,7 @@
                     data-bs-parent="#reviews-content">
                     <div class="accordion-body">
                     <p>
-                    "Herd Mentality is an easy and fun family board game where everyone in the family can join the herd."  </p>
+                    "Herd Mentality is an easy and fun family board game where everyone in the family can join the herd."
                    </p>
                     </div>
                 </div>
@@ -465,14 +454,14 @@
                            <p class='text-center' style='font-size:25px;'>
                              Are you looking for a perfect game for anyone 17 and up? Well then this is your game, and you don’t need to be the best drawer either.
                                <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
-                                   data-bs-target="#collapse-synopsis-1" aria-expanded="false"
-                                   aria-controls="collapse-synopsis-1">
+                                   data-bs-target="#collapse-synopsis-4" aria-expanded="false"
+                                   aria-controls="collapse-synopsis-4">
                                    Read more
                                </button>
                            </div>
-                           <p class="collapse" id="collapse-synopsis-1">
+                           <p class="collapse" id="collapse-synopsis-4">
                              This game has different degrees of making you feel absurd and filthy. But it is still a fun game where it will leave you and your friends laughing and connecting throughout the entire game.
-                       </p>
+                            </p>
                        </div>
                       </div>
                     <!-- 4th Slider Scrawl -->
@@ -543,8 +532,7 @@
                     data-bs-parent="#reviews-content">
                     <div class="accordion-body">
                     <p>
-                    "Get ready to laugh so hard you can cry! This is a great adult game for game night."     </p>
-                    </p>
+                    "Get ready to laugh so hard you can cry! This is a great adult game for game night."
                     </div>
                 </div>
             </article>
@@ -569,14 +557,14 @@
                            <p class='text-center' style='font-size:25px;'>
                              Are you looking for a game with different categories such as famous actors, dog breeds, and your favorite toppings? Then I think this game is for you.
                                <button class="btn btn-primary btn-sm py-0" type="button" data-bs-toggle="collapse"
-                                   data-bs-target="#collapse-synopsis-1" aria-expanded="false"
-                                   aria-controls="collapse-synopsis-1">
+                                   data-bs-target="#collapse-synopsis-5" aria-expanded="false"
+                                   aria-controls="collapse-synopsis-5">
                                    Read more
                                </button>
                            </div>
-                           <p class="collapse" id="collapse-synopsis-1">
+                            <p class="collapse" id="collapse-synopsis-5">
                              In this game, you need to think on your feet and snatch a card fast. This is a fast-paced game for everyone.
-                       </p>
+                            </p>
                        </div>
                       </div>
 
@@ -649,8 +637,8 @@
                         data-bs-parent="#reviews-content">
                         <div class="accordion-body">
                     <p>
-                  "Ginger Fox presents Pinch ‘N’ Pass, it’s a fun board game to play with all ages. This game will keep you on your toes but it’s all for good fun."                                    </p>
-                  </p>
+                        "Ginger Fox presents Pinch ‘N’ Pass, it’s a fun board game to play with all ages. This game will keep you on your toes but it’s all for good fun."
+                    </p>
                   </div>
                 </div>
               </div>
@@ -717,5 +705,4 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 </body>
-
 </html>
