@@ -8,7 +8,6 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
-
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
@@ -32,3 +31,24 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+//Thank you feedback 
+const form = document.querySelector('form');
+form.addEventListener('submit', function (){
+    event.preventDefault
+});
+function onButtonClick(){
+    $(#submitButton).on("click", hideButton);
+}
+function hideButton(){
+    $("#submitButton").hide();
+    $("#email").prop("disabled", true);
+    $("#name").prop("disabled", true); 
+    $("#comments").prop("disabled", true);
+
+    $("#message").show();
+    let inputValue = $("#name").val();
+    let copyMessage = $("#message"); 
+    copyMessage.text("Thank you " + inputValue + ", for your feedback!");
+}
+onButtonClick();
